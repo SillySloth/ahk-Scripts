@@ -6,6 +6,8 @@
 #E:: explorer()
 #I:: illustrator()
 #V:: vsCode()
+#B:: beats()
+
 
 ; Mozilla Firefox shortcut
 firefox() {
@@ -26,6 +28,10 @@ illustrator() {
 ; Visual Studio Code shortcut
 vsCode() {
     shortcutHandler("Visual Studio Code","C:/Users/JoshW/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/Visual Studio Code.lnk")
+}
+; Spotify shortcut
+beats() {
+    shortcutHandler("Spotify Premium","C:\Users\JoshW\AppData\Local\Microsoft\WindowsApps\Spotify.exe")
 }
 
 shortcutHandler(window, launch) {
