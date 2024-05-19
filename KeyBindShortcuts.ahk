@@ -5,22 +5,27 @@
 #C:: chrome()
 #E:: explorer()
 #I:: illustrator()
+#V:: vsCode()
 
-; Firefox shortcut
+; Mozilla Firefox shortcut
 firefox() {
     shortcutHandler("Mozilla Firefox", "C:/Program Files/Mozilla Firefox/firefox.exe")
 }
-; Chrome shortcut
+; Google Chrome shortcut
 chrome() {
     shortcutHandler("Google Chrome", "C:/Program Files/Google/Chrome/Application/chrome.exe")
 }
-; Explorer shortcut
+; File Explorer shortcut
 explorer() {
     shortcutHandler("ahk_class CabinetWClass", "C:/Windows/explorer.exe")
 }
-; Illustrator shortcut
+; Adobe Illustrator shortcut
 illustrator() {
     shortcutHandler("Adobe Illustrator 2024", "C:/Program Files/Adobe/Adobe Illustrator 2024/Support Files/Contents/Windows/Illustrator.exe")
+}
+; Visual Studio Code shortcut
+vsCode() {
+    shortcutHandler("Visual Studio Code","C:/Users/JoshW/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/Visual Studio Code.lnk")
 }
 
 shortcutHandler(window, launch) {
